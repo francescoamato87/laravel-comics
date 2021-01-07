@@ -1,0 +1,15 @@
+
+.navbar-brand{
+    float: left;
+}
+
+.navbar-nav{
+   .menu {
+       display:flex;
+       align-items: center;
+       justify-content: space-between;
+       height: 100px;
+       margin-left: 10px;
+       font-weight: bold;
+     }
+}

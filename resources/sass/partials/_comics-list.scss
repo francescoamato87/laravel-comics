@@ -1,0 +1,23 @@
+
+// GRID WRAP
+.comics{
+    background-color: #191818;
+}
+
+
+// GRID STYLE
+
+.comics-list{
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    // 1fr 1fr 1fr 1fr 1fr 1fr;
+    // 200px 200px 200px 200px;
+    grid-gap: 2rem;
+    img{
+        width: 100%;
+    };
+    h3{
+        color: azure;
+    }
+}
