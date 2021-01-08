@@ -217,3 +217,35 @@ a {
 .comics-list h3 {
   color: azure;
 }
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue-botton {
+  padding: 10px;
+  background-color: #4141ff;
+  color: #ffff;
+  border: none;
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.section-blue {
+  height: 200px;
+  background: #4141ff;
+}
+.section-blue ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.section-blue li {
+  margin-top: 100px;
+}
+.section-blue a {
+  color: white;
+}

@@ -26,4 +26,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'HomeController@index') -> name('home');
 
 // COMICS DETAIL
-Route::get('/comic/{id}', 'ComicController@show') -> name('comic-detail');
+// Route::get('/comic/{id}', 'ComicController@show') -> name('comic-detail');
+Route::get('/comic/{slug}', 'ComicController@show') -> name('comic-detail'); // <-- friendly Url

@@ -13,13 +13,37 @@
                 <ul class="comics-list ">
                    @foreach ($comics as $comic)
                    <li class="mt-2" >
-                       <a href=" {{ route('comic-detail', $comic['id']) }} "> {{--  <------ guarda il ComicControllerPHP nei Controller  --}}
+                       <a href=" {{ route('comic-detail', $comic['slug']) }} "> {{--  <------ guarda il ComicControllerPHP nei Controller  --}}
                            <img src="{{ $comic['image'] }}" alt="{{ $comic['title'] }}">
                            <h3> {{ $comic['title'] }} </h3>
                        </a>
                    </li>
                    @endforeach
                 </ul>
+                <div class="button">
+                    <button class="blue-botton">
+                    LOAD MORE
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-blue">
+            <div class="container">
+                <ul>
+                        <li>
+                            <a href="">icon</a>
+                        </li>
+                        <li>
+                            <a href="">icon</a>
+                        </li>
+                        <li>
+                            <a href="">icon</a>
+                        </li>
+                        <li>
+                            <a href="">icon</a>
+                        </li>
+                    </ul>
             </div>
         </section>
     </main>

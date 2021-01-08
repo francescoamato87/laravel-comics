@@ -21,3 +21,37 @@
         color: azure;
     }
 }
+
+// BUTTON
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.blue-botton{
+    padding: 10px;
+    background-color:rgb(65, 65, 255);
+    color: #ffff;
+    border: none;
+    width:200px;
+    margin-bottom: 30px;
+}
+
+.section-blue{
+    height:200px;
+    background:rgb(65, 65, 255);
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+              }
+            li{
+                margin-top: 100px;
+            }
+            a {
+
+                  color: white;
+              }
+}

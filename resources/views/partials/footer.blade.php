@@ -2,4 +2,6 @@
     MAIN-FOOTER
     --}}
 
-<footer class="main-footer">FOOTER HERE ok!</footer>
+<footer class="main-footer">
+
+</footer>
